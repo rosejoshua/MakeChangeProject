@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MakeChange {
 	static Scanner input = new Scanner(System.in);
 
-	//calls purchasePrompt(), if change calculation is needed, purchase prompt will call getChange().
+	//calls purchPrompt(), if change calculation is needed, purchase prompt will call getChange().
 	public static void main(String[] args) {
 		purchPrompt();
 	}
@@ -140,4 +140,5 @@ public class MakeChange {
 		}
 
 	}
+	
 }
